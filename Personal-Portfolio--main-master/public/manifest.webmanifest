@@ -1,0 +1,23 @@
+{
+  "name": "Rukhsar Ahmad — Full-Stack Web Developer | MERN & AI Integration",
+  "short_name": "Rukhsar Ahmad",
+  "description": "Portfolio of Rukhsar Ahmad — full-stack web developer specializing in MERN stack, Next.js and AI integration. Web apps, e-commerce and AI-powered experiences.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f4f2",
+  "theme_color": "#f4f4f2",
+  "color_scheme": "light dark",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "prefer_related_applications": false
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#0f172a"/>
+  <text x="600" y="400" font-family="Georgia, serif" font-size="32" font-weight="300" fill="#94a3b8" text-anchor="middle">Admin Dashboard</text>
+  <text x="600" y="445" font-family="Georgia, serif" font-size="20" font-weight="300" fill="#64748b" text-anchor="middle">Product Management & Orders</text>
+</svg>
