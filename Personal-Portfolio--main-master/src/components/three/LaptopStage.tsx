@@ -1,4 +1,5 @@
 import { lazy, Suspense, useEffect, useRef, useState } from 'react';
+import { CountdownLoader } from './CountdownLoader';
 import { StaticLaptopPreview } from './StaticLaptopPreview';
 import furniro from '@/assets/project-screens/furniro-furniture-website-screenshot.webp';
 import furniroFull from '@/assets/project-screens/furniro-furniture-website-screenshot.webp';
@@ -35,9 +36,8 @@ async function decodeAll(srcs: string[]): Promise<void> {
 }
 
 /**
- * Renders a static laptop preview first, then swaps in the full 3D scene
- * once the section approaches the viewport AND the FloatingLaptop chunk +
- * screen textures are ready. Cuts ~800KB from initial JS parse.
+ * Renders the laptop section with a countdown loader overlaid on the
+ * screen area. When the countdown hits 100%, the 3D laptop appears.
  */
 export function LaptopStage() {
   const [ready, setReady] = useState(false);
@@ -47,7 +47,6 @@ export function LaptopStage() {
   useEffect(() => {
     const el = wrapRef.current;
     if (!el) return;
-    // Skip observer where unsupported — just load immediately.
     if (typeof IntersectionObserver === 'undefined') {
       setInView(true);
       return;
@@ -62,7 +61,7 @@ export function LaptopStage() {
           }
         }
       },
-      { rootMargin: '600px 0px' }, // start loading well before scroll-in
+      { rootMargin: '600px 0px' },
     );
     io.observe(el);
     return () => io.disconnect();
@@ -82,11 +81,11 @@ export function LaptopStage() {
   }, [inView]);
 
   return (
-    <div ref={wrapRef}>
+    <div ref={wrapRef} className="relative w-full">
       {!ready ? (
-        <StaticLaptopPreview screenSrc={furniroFull} />
+        <CountdownLoader duration={3000} onComplete={() => setReady(true)} />
       ) : (
-        <Suspense fallback={<StaticLaptopPreview screenSrc={furniroFull} />}>
+        <Suspense fallback={<CountdownLoader duration={3000} />}>
           <FloatingLaptop />
         </Suspense>
       )}

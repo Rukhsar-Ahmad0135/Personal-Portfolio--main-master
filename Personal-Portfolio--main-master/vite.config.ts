@@ -10,6 +10,8 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    // Enable CORS for API calls
+    cors: true,
   },
   plugins: [
     tailwindcss(),
@@ -21,5 +23,15 @@ export default defineConfig(({ mode }) => ({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+  },
+  build: {
+    rollupOptions: {
+      // Ensure client-side only build
+      external: [],
+    },
+  },
+  define: {
+    // Make API base URL configurable
+    __API_BASE_URL__: JSON.stringify('/api'),
   },
 }));

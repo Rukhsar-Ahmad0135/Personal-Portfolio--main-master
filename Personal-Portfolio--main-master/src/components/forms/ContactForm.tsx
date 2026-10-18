@@ -219,7 +219,7 @@ className="min-h-32 font-light resize-none text-black bg-white"
         )}
         <Button
           type="submit"
-          className="w-full py-6 text-base font-light tracking-wide"
+          className="w-full py-6 text-base font-light tracking-wide bg-white text-black border border-black/20 hover:bg-black hover:text-white hover:border-black transition-all duration-300"
           disabled={isSubmitting}
         >
           {isSubmitting ? (

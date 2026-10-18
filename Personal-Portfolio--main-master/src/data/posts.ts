@@ -113,7 +113,7 @@ export const posts: Post[] = [
     date: '2026-10-03',
     tags: ['UI/UX', 'Figma', 'React', 'Tailwind CSS', 'Framer Motion'],
     readingTime: '6 min read',
-    coverImage: '/images/blog/figma-to-react-workflow.svg',
+    coverImage: '/images/blog/figma-to-react-workflow.png',
     intro:
       'Most of my projects start in Figma and ship as React. Over storefronts like EcoBazar and Furniro and marketing sites for logistics and IT companies, I have settled into a workflow that keeps the gap between the design file and the deployed UI small. This is that workflow, step by step.',
     blocks: [
@@ -151,7 +151,7 @@ export const posts: Post[] = [
     date: '2026-09-28',
     tags: ['SEO', 'React', 'Web Performance', 'Structured Data'],
     readingTime: '8 min read',
-    coverImage: '/images/blog/react-seo-checklist.svg',
+    coverImage: '/images/blog/react-technical-seo-checklist.png',
     intro:
       'React single-page applications ship empty HTML shells, so search engines have to render JavaScript to see your content — and many never do it well. I just went through a full technical SEO pass on this portfolio, and this is the checklist I worked through, in the order I would apply it to any React site.',
     blocks: [
@@ -205,7 +205,7 @@ export const posts: Post[] = [
     date: '2026-09-20',
     tags: ['AI Integration', 'Gemini API', 'OpenAI API', 'Node.js'],
     readingTime: '7 min read',
-    coverImage: '/images/blog/ai-api-integration-guide.svg',
+    coverImage: '/images/blog/ai-api-integration-guide.png',
     intro:
       'Most AI integrations I see fail for the same reason: the developer wires the model straight into the UI and lets it say whatever it wants. I have built AI features into production products — including the AI Stylist in ZYRA — and the pattern that works is almost boring: the model interprets, your data answers, and nothing reaches the user unvalidated.',
     blocks: [
@@ -253,7 +253,7 @@ export const posts: Post[] = [
     date: '2026-09-15',
     tags: ['MERN', 'AI Integration', 'MongoDB', 'Node.js', 'React'],
     readingTime: '6 min read',
-    coverImage: '/images/blog/ai-in-mern-diagram.svg',
+    coverImage: '/images/blog/add-ai-features-mern.jpg',
     intro:
       'If you have a working MERN application and want to add AI features, the good news is that the stack already gives you everything you need: MongoDB holds the truth, Express can hold the API keys, and React just needs a place to put the interface. This is the architecture I use, drawn from adding an AI Stylist and catalog-grounded recommendations to a MERN e-commerce platform.',
     blocks: [
@@ -290,7 +290,7 @@ export const posts: Post[] = [
     date: '2026-09-10',
     tags: ['Shopify', 'WordPress', 'E-commerce', 'Business websites'],
     readingTime: '5 min read',
-    coverImage: '/images/blog/shopify-vs-wordpress-decision.svg',
+    coverImage: '/images/blog/shopify-vs-wordpress.jpg',
     intro:
       'Clients ask me this in almost every first call: Shopify or WordPress? I build on both, which means I do not get a commission for either answer. Here is the version I give — the questions that actually decide it, not a feature table.',
     blocks: [

@@ -11,6 +11,7 @@ import { PageTransition } from "@/components/ui/PageTransition";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
 import { SmoothScroll } from "@/components/effects/SmoothScroll";
 import { CustomCursor } from "@/components/effects/CustomCursor";
+import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 import { AnimatePresence } from "framer-motion";
 import { lazy, Suspense } from "react";
 
@@ -128,6 +129,7 @@ const App = () => (
           <Sonner />
           <SmoothScroll />
           <CustomCursor />
+          <WhatsAppButton />
           <BrowserRouter>
             <SkipToContent />
             <Layout>

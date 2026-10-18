@@ -105,8 +105,8 @@ export const getAllReviews = async (): Promise<Review[]> => {
   return [...reviews, ...submitted];
 };
 
-export const getReviewStats = () => {
-  const all = getAllReviews();
+export const getReviewStats = async () => {
+  const all = await getAllReviews();
   const total = all.length;
   const avg = total > 0 ? all.reduce((sum, r) => sum + r.rating, 0) / total : 0;
   const distribution: Record<number, number> = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };

@@ -15,12 +15,61 @@ const mk = (
 
 export const projects: Project[] = [
   {
+    id: '10',
+    title: 'PRX Research — Clinical Research Facility',
+    category: 'web',
+    year: '2026',
+    slug: 'prx-research',
+    coverImage: `${IMG}/prx-research-lab-hero.png`,
+    description:
+      'A comprehensive redesign of a leading clinical research facility website. Transforming a basic structure into a modern, professional platform with clear design hierarchy, scroll animations, and optimized patient recruitment flows for acute and emergency research situations.',
+    tech: ['React', 'Vite', 'Framer Motion', 'Tailwind CSS', 'UI/UX Redesign', 'SEO Optimization'],
+    role: 'Lead Developer · UI/UX Designer',
+    liveUrl: 'https://prxresearch.com/',
+    images: [
+      mk('10-1', `${IMG}/prx-research-lab-hero.png`, 'PRX Research homepage hero with professional laboratory setting'),
+      mk('10-2', `${IMG}/prx-research-lab-areas.png`, 'PRX Research areas of expertise including emergency care and clinical trials'),
+      mk('10-3', `${IMG}/prx-research-lab-advancing.png`, 'Research facility showcase highlighting medical innovation'),
+      mk('10-4', `${IMG}/prx-research-lab-footer.png`, 'PRX Research sitemap and contact information footer'),
+    ],
+    caseStudy: {
+      challenge:
+        'The original PRX Research website was basic and lacked a clear professional structure, consistent design hierarchy, and engaging transitions. For a premier clinical research institution designated for acute and emergency situations, the digital presence needed to reflect their cutting-edge capabilities and build trust with both patients and sponsors.',
+      highlights: [
+        'Complete UI/UX redesign from a basic structure to a modern, high-conversion layout.',
+        'Implemented professional design hierarchy and consistent color systems.',
+        'Added smooth scroll animations and transitions using Framer Motion.',
+        'Optimized for clinical research recruitment with clear call-to-actions (Appointments, Sponsors).',
+        '5000+ patients served through optimized research options.',
+        'Showcase for 100+ clinical trials and a dedicated team of 20+ expert staff.',
+        'Inpatient and outpatient capability presentation with central IRB integration.',
+        'Mobile-first responsive architecture for emergency access situations.',
+      ],
+      sections: [
+        {
+          heading: 'Overview',
+          body: [
+            'PRX Research is a leading clinical research facility in North Texas, offering services for acute and emergency situations including 24-hour ER, critical care, and full-service laboratory diagnostics. The redesign focused on translating biomedical discovery into an accessible healthcare solution.',
+            'The project involved restructuring the entire site information architecture to prioritize patient enrollment, sponsor transparency, and institutional expertise.',
+          ],
+        },
+        {
+          heading: 'Redesign Strategy',
+          body: [
+            'I replaced the previous basic design with a sophisticated hierarchy that uses whitespace and typography to guide the user. Key institutional metrics (5000+ patients, 100+ trials) were elevated to primary focal points to establish immediate authority.',
+            'Using Framer Motion, I introduced scroll-triggered reveals that keep the user engaged without distracting from the critical medical information.',
+          ],
+        },
+      ],
+    },
+  },
+  {
     id: '9',
     title: 'ZYRA — AI-Powered MERN Stack E-commerce Platform',
     category: 'fullstack',
     year: '2026',
     slug: 'zyra',
-    coverImage: `${IMG}/zyra-ai-ecommerce-homepage-hero.webp`,
+    coverImage: `${IMG}/zyra-ai-ecommerce-vacation.png`,
     description:
       'A premium fashion and lifestyle e-commerce platform built on the MERN stack with a practical AI layer: an AI Fashion Stylist powered by Gemini, embedding-based product retrieval in Pinecone, RAG recommendations verified against the real catalog, and a complete commerce flow with Clerk authentication and Cloudinary media.',
     tech: ['React', 'Vite', 'Redux Toolkit', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB', 'Clerk', 'JWT', 'Cloudinary', 'Gemini API', 'Pinecone', 'RAG'],

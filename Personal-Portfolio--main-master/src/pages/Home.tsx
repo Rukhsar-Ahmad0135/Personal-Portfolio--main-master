@@ -618,7 +618,9 @@ export default function Home() {
               Move your cursor — the laptop follows. Real projects rendered live inside the screen.
             </p>
           </div>
-          <LaptopStage />
+          <div className="w-full flex justify-center">
+            <LaptopStage />
+          </div>
         </section>
 
         {/* WORK '25 */}
@@ -647,10 +649,11 @@ export default function Home() {
                       src={p.coverImage}
                       alt={p.title}
                       loading="lazy"
-                      className="absolute inset-0 w-full h-full object-cover"
+                      className="absolute inset-0 w-full h-full object-cover grayscale"
                       whileHover={{ scale: 1.05 }}
                       transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                     />
+                    <div className="absolute inset-0 bg-black/25" />
                     <div className="absolute top-4 right-4 size-10 rounded-full bg-black text-white flex items-center justify-center opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all">
                       <ArrowUpRight className="size-4" />
                     </div>
@@ -848,9 +851,6 @@ export default function Home() {
 
         {/* GET IN TOUCH */}
         <section className="relative px-5 sm:px-6 lg:px-10 py-20 sm:py-24 md:py-32 border-t border-black/10 overflow-hidden">
-          <div className="mb-20 sm:mb-24 md:mb-32">
-            <Testimonials reducedMotion={Boolean(prefersReducedMotion)} />
-          </div>
           <div className="max-w-4xl mx-auto text-center relative z-10">
             <Reveal>
               <h2 className="text-6xl md:text-8xl font-light tracking-tight leading-[0.95]">
@@ -900,7 +900,7 @@ export default function Home() {
                   href={photographerInfo.socialLinks.github}
                   target="_blank"
                   rel="noreferrer"
-                  className="hover:underline bg-[#f4f4f2]/80 backdrop-blur-sm px-3 py-1 rounded-full border border-black/10"
+                  className="bg-[#f4f4f2]/80 backdrop-blur-sm px-3 py-1 rounded-full border border-black/10 transition-all duration-300 hover:bg-black hover:text-white"
                 >
                   GitHub
                 </a>
@@ -908,7 +908,7 @@ export default function Home() {
                   href={photographerInfo.socialLinks.linkedin}
                   target="_blank"
                   rel="noreferrer"
-                  className="hover:underline bg-[#f4f4f2]/80 backdrop-blur-sm px-3 py-1 rounded-full border border-black/10"
+                  className="bg-[#f4f4f2]/80 backdrop-blur-sm px-3 py-1 rounded-full border border-black/10 transition-all duration-300 hover:bg-black hover:text-white"
                 >
                   LinkedIn
                 </a>
@@ -926,8 +926,8 @@ export default function Home() {
               <p className="text-xs text-black/50 mt-1">Available for remote work worldwide</p>
             </div>
             <div className="flex gap-4 justify-center items-center text-lg font-light">
-              <a href={photographerInfo.socialLinks.github} target="_blank" rel="noreferrer" className="hover:underline">GitHub</a>
-              <a href={photographerInfo.socialLinks.linkedin} target="_blank" rel="noreferrer" className="hover:underline">LinkedIn</a>
+              <a href={photographerInfo.socialLinks.github} target="_blank" rel="noreferrer" className="hover:text-black">GitHub</a>
+              <a href={photographerInfo.socialLinks.linkedin} target="_blank" rel="noreferrer" className="hover:text-black">LinkedIn</a>
             </div>
           </div>
 

@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Star } from 'lucide-react';
 import { getAllReviews, getAverageRating } from '@/data/reviews';
 import type { Review } from '@/data/reviews';
+import { getSubmittedReviews } from '@/data/reviews';
 
 function RatingBar({ rating }: { rating: number }) {
   return (

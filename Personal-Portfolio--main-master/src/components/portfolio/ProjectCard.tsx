@@ -54,7 +54,7 @@ export function ProjectCard({
             src={project.coverImage}
             alt={project.images[0]?.alt || `${project.title} — project cover`}
             className={cn(
-              'absolute inset-0 w-full h-full object-cover transition-opacity duration-700',
+              'absolute inset-0 w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0',
               isLoaded ? 'opacity-100' : 'opacity-0',
             )}
             loading={index < 3 ? 'eager' : 'lazy'}
@@ -62,7 +62,7 @@ export function ProjectCard({
             fetchPriority={index === 0 ? 'high' : 'auto'}
             onLoad={() => setIsLoaded(true)}
           />
-          <div className="absolute inset-0 border-2 border-white/0 group-hover:border-white/10 transition-colors duration-500" />
+          <div className="absolute inset-0 bg-black/25 transition-colors duration-500 group-hover:bg-transparent" />
         </Link>
 
         {/* BACK — title, year, view website CTA */}

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
@@ -15,7 +15,7 @@ import {
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
-import { saveReview } from '@/data/reviews';
+import { saveReview, getSubmittedReviews } from '@/data/reviews';
 import type { ReviewFormValues } from '@/data/reviews';
 
 const reviewSchema = z.object({
@@ -195,7 +195,7 @@ export function ReviewForm() {
           </div>
         )}
 
-        <Button type="submit" className="w-full py-6 text-base font-light tracking-wide" disabled={isSubmitting}>
+        <Button type="submit" className="w-full py-6 text-base font-light tracking-wide bg-white text-black border border-black/20 hover:bg-black hover:text-white hover:border-black transition-all duration-300" disabled={isSubmitting}>
           {isSubmitting ? (
             <>
               <Loader2 className="mr-2 size-5 animate-spin" />
