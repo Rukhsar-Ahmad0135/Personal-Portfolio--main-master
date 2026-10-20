@@ -6,12 +6,15 @@
  * sitemap and structured-data URL derives from it, so nothing else
  * needs to change.
  */
-export const SITE_URL = 'https://rukhsar-ahmad-portfolio-e34dd.web.app';
+export const SITE_URL = 'https://www.rukhsarahmad.dev';
 
 export const SITE_NAME = 'Rukhsar Ahmad — Full-Stack Web Developer';
 
 /** Default social sharing image (1200×630) served from /public/images. */
 export const OG_IMAGE = '/images/og-image.jpg';
+
+export const GSC_VERIFICATION = 'google19b06204af9d8cc5';
+export const GA_MEASUREMENT_ID = 'G-ES76H25QS8';
 
 export const DEFAULT_KEYWORDS =
   'Rukhsar Ahmad, MERN Stack Developer, Full Stack Web Developer, AI Web Developer, AI Integration Developer, Next.js Developer, React Developer, Node.js Developer, WordPress Developer, Shopify Developer, Webflow Developer, GoHighLevel Developer, E-commerce Development, Lahore';

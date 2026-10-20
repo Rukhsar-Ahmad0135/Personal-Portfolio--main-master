@@ -1,11 +1,4 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Allow: /
-Disallow: /404
-Disallow: /contact?form=success
 
-Sitemap: https://rukhsar-ahmad-portfolio-e34dd.web.app/sitemap.xml
-
-# Prevent indexing of 404 error page
-User-agent: Googlebot
-Disallow: /404
+Sitemap: https://www.rukhsarahmad.dev/sitemap.xml

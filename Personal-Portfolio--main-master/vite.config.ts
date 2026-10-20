@@ -4,6 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 import tailwindcss from "@tailwindcss/vite";
 import { imagetools } from "vite-imagetools";
+import Sitemap from "vite-plugin-sitemap";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
@@ -18,6 +19,22 @@ export default defineConfig(({ mode }) => ({
     react(),
     imagetools(),
     mode === "development" && componentTagger(),
+    Sitemap({
+      hostname: 'https://www.rukhsarahmad.dev',
+      dynamicRoutes: [
+        '/portfolio',
+        '/services',
+        '/blog',
+        '/about',
+        '/contact',
+        '/blog/ai-reshaping-developer-landscape',
+        '/blog/will-ai-replace-software-engineers',
+        '/blog/ai-proof-developer-skills',
+        '/blog/web-dev-not-enough-nowadays',
+        '/project/prx-research',
+        '/project/zyra',
+      ],
+    }),
   ].filter(Boolean),
   resolve: {
     alias: {

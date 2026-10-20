@@ -64,3 +64,69 @@
 [debug] [2026-10-17T06:41:37.517Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/firebasedataconnect.googleapis.com [omitted]
 [debug] [2026-10-17T06:41:37.518Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/ 200
 [debug] [2026-10-17T06:41:37.519Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/ [omitted]
+[debug] [2026-10-20T16:34:46.367Z] Checked if tokens are valid: false, expires at: 1792222894424
+[debug] [2026-10-20T16:34:46.375Z] Checked if tokens are valid: false, expires at: 1792222894424
+[debug] [2026-10-20T16:34:46.376Z] > refreshing access token with scopes: []
+[debug] [2026-10-20T16:34:46.383Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-10-20T16:34:46.383Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-10-20T16:34:46.411Z] Checked if tokens are valid: false, expires at: 1792222894424
+[debug] [2026-10-20T16:34:46.411Z] Checked if tokens are valid: false, expires at: 1792222894424
+[debug] [2026-10-20T16:34:46.412Z] > refreshing access token with scopes: []
+[debug] [2026-10-20T16:34:46.413Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-10-20T16:34:46.413Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-10-20T16:34:46.416Z] Checked if tokens are valid: false, expires at: 1792222894424
+[debug] [2026-10-20T16:34:46.417Z] Checked if tokens are valid: false, expires at: 1792222894424
+[debug] [2026-10-20T16:34:46.417Z] > refreshing access token with scopes: []
+[debug] [2026-10-20T16:34:46.417Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-10-20T16:34:46.417Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-10-20T16:34:46.420Z] Checked if tokens are valid: false, expires at: 1792222894424
+[debug] [2026-10-20T16:34:46.420Z] Checked if tokens are valid: false, expires at: 1792222894424
+[debug] [2026-10-20T16:34:46.420Z] > refreshing access token with scopes: []
+[debug] [2026-10-20T16:34:46.420Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-10-20T16:34:46.421Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-10-20T16:34:46.422Z] Checked if tokens are valid: false, expires at: 1792222894424
+[debug] [2026-10-20T16:34:46.423Z] Checked if tokens are valid: false, expires at: 1792222894424
+[debug] [2026-10-20T16:34:46.423Z] > refreshing access token with scopes: []
+[debug] [2026-10-20T16:34:46.423Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-10-20T16:34:46.423Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-10-20T16:34:46.425Z] Checked if tokens are valid: false, expires at: 1792222894424
+[debug] [2026-10-20T16:34:46.425Z] Checked if tokens are valid: false, expires at: 1792222894424
+[debug] [2026-10-20T16:34:46.425Z] > refreshing access token with scopes: []
+[debug] [2026-10-20T16:34:46.426Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-10-20T16:34:46.426Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-10-20T16:34:55.591Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-10-20T16:34:55.591Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-10-20T16:34:56.469Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/firestore.googleapis.com [none]
+[debug] [2026-10-20T16:34:56.469Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/firestore.googleapis.com x-goog-quota-user=projects/plugz-c35fb
+[debug] [2026-10-20T16:34:56.473Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-10-20T16:34:56.473Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-10-20T16:34:56.729Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/ [none]
+[debug] [2026-10-20T16:34:56.729Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/ x-goog-quota-user=projects/plugz-c35fb
+[debug] [2026-10-20T16:34:56.731Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-10-20T16:34:56.731Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-10-20T16:34:56.966Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-10-20T16:34:56.966Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/plugz-c35fb
+[debug] [2026-10-20T16:34:56.968Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-10-20T16:34:56.969Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-10-20T16:34:57.232Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/firebasecrashlytics.googleapis.com [none]
+[debug] [2026-10-20T16:34:57.232Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/firebasecrashlytics.googleapis.com x-goog-quota-user=projects/plugz-c35fb
+[debug] [2026-10-20T16:34:57.238Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-10-20T16:34:57.238Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-10-20T16:34:57.522Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/firebaseio.com [none]
+[debug] [2026-10-20T16:34:57.523Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/firebaseio.com x-goog-quota-user=projects/plugz-c35fb
+[debug] [2026-10-20T16:34:57.572Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-10-20T16:34:57.572Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-10-20T16:34:58.432Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-10-20T16:34:58.432Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/plugz-c35fb
+[debug] [2026-10-20T16:35:00.068Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-10-20T16:35:00.068Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-10-20T16:35:00.111Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-10-20T16:35:00.111Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-10-20T16:35:00.286Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/firestore.googleapis.com 200
+[debug] [2026-10-20T16:35:00.287Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/firestore.googleapis.com [omitted]
+[debug] [2026-10-20T16:35:00.321Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/firebaseio.com 403
+[debug] [2026-10-20T16:35:00.321Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/firebaseio.com [omitted]
+[debug] [2026-10-20T16:35:00.332Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/firebasecrashlytics.googleapis.com 200
+[debug] [2026-10-20T16:35:00.333Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/firebasecrashlytics.googleapis.com [omitted]
+[debug] [2026-10-20T16:35:00.792Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/ 200
+[debug] [2026-10-20T16:35:00.793Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/plugz-c35fb/services/ [omitted]
